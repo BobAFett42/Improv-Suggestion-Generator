@@ -1,16 +1,19 @@
 //List of suggestions in an array
 var relSug = function (){
-	var relationship = 
-	['Father-Son', 
-	'Father-Daughter', 
-	'Siblings', 
-	'Spouses', 
-	'Boss-Employee', 
-	'Co-workers', 
-	'Couple', 
-	'On First Date', 
-	'Asassins', 
-	'Fry Cooks']
+	var relationship = ['Father-Son', 
+						'Father-Daughter', 
+						'Mother-Son',
+						'Mother-Daughter',
+						'Siblings', 
+						'Spouses', 
+						'Cousins',
+						'Grandparent-Grandchild',
+						'Boss-Employee', 
+						'Co-workers', 
+						'Couple', 
+						'On First Date', 
+						'Asassins', 
+						'Fry Cooks']
 	
 	//Determine the length of that array
 	var x = relationship.length;
