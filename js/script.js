@@ -18,9 +18,10 @@ var relSug = function (){
 	//Determine the length of that array
 	var x = relationship.length;
 	//Generate a random number based on the number of entries in that array
-	var sug = Math.floor(Math.random() * x);
+	var y = Math.floor(Math.random() * x);
 
-	document.getElementById("field").innerHTML = relationship[sug];
+	var sug = document.getElementById("field")
+	sug.innerHTML = relationship[y];
 	//Return the random word from the array
 	//return relationship[sug];
 }
